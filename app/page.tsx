@@ -1,4 +1,3 @@
-```tsx
 export default function WebpageDesignMockup() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
