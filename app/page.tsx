@@ -351,12 +351,14 @@ return (
       </div>
     </section>
   </main>
+    
+<footer style={styles.footer}>
+  <div style={styles.container}>
+    MoonSheng LLC • Warehouse Staffing • Lumper Services • Logistics Support
+  </div>
+</footer>
 
-  <footer style={styles.footer}>
-    <div style={styles.container}>MoonSheng LLC • Warehouse Staffing • Lumper Services • Logistics Support</div>
-  </footer>
 </div>
-```
 
 );
 }
