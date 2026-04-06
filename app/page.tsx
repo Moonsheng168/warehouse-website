@@ -224,20 +224,23 @@ fontSize: '14px',
 },
 };
 
-return ( <div style={styles.page}> <header style={styles.header}>
-<div style={{ ...styles.container, ...styles.headerInner }}> <div style={styles.brand}>MoonSheng LLC</div>
+};
+return (
+  <div style={styles.page}>
+    <header style={styles.header}>
+      <div style={{ ...styles.container, ...styles.headerInner }}>
+        <div style={styles.brand}>MoonSheng LLC</div>
 
-```
-      <nav style={styles.nav}>
-        <a href="#services" style={styles.navLink}>Services</a>
-        <a href="#why-us" style={styles.navLink}>Why Us</a>
-        <a href="#service-area" style={styles.navLink}>Service Area</a>
-        <a href="#contact" style={styles.navLink}>Contact</a>
-      </nav>
+        <nav style={styles.nav}>
+          <a href="#services" style={styles.navLink}>Services</a>
+          <a href="#why-us" style={styles.navLink}>Why Us</a>
+          <a href="#service-area" style={styles.navLink}>Service Area</a>
+          <a href="#contact" style={styles.navLink}>Contact</a>
+        </nav>
 
-      <a href="tel:+16263738772" style={styles.callBtn}>Call Now</a>
-    </div>
-  </header>
+        <a href="tel:+16263738772" style={styles.callBtn}>Call Now</a>
+      </div>
+    </header>
 
   <main>
     <section style={styles.hero}>
