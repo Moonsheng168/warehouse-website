@@ -341,7 +341,7 @@ return (
           <div style={styles.infoLine}>Email: futrueretirement@gmail.com</div>
         </div>
 
-        <form action="https://formspree.io/f/maqlaorw" method="POST" style={styles.form}>
+      <form action="https://formspree.io/f/maqlaorw" method="POST" style={styles.form}>
           <input name="name" placeholder="Name" style={styles.input} />
           <input name="company" placeholder="Company" style={styles.input} />
           <input name="email" placeholder="Email" style={styles.input} />
@@ -351,14 +351,11 @@ return (
       </div>
     </section>
   </main>
-    
-<footer style={styles.footer}>
-  <div style={styles.container}>
-    MoonSheng LLC • Warehouse Staffing • Lumper Services • Logistics Support
-  </div>
-</footer>
 
+  <footer style={styles.footer}>
+    <div style={styles.container}>
+      MoonSheng LLC • Warehouse Staffing • Lumper Services • Logistics Support
+    </div>
+  </footer>
 </div>
-
-);
-}
+  );
