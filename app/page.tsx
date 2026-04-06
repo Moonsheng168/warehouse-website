@@ -216,15 +216,14 @@ fontSize: '16px',
 fontWeight: 700,
 cursor: 'pointer',
 },
-footer: {
-borderTop: '1px solid #e2e8f0',
-padding: '24px 0 40px',
-color: '#64748b',
-fontSize: '14px',
-},
+  footer: {
+    borderTop: '1px solid #e2e8f0',
+    padding: '24px 0 40px',
+    color: '#64748b',
+    fontSize: '14px',
+  },
 };
 
-};
 return (
   <div style={styles.page}>
     <header style={styles.header}>
